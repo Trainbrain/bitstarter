@@ -1,3 +1,4 @@
+var fs = require('fs');
 var express = require('express');
 var str = fs.readFileSync('index.html','utf8');
 var app = express.createServer(express.logger());
